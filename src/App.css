@@ -1,0 +1,178 @@
+/* navbar styling */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+.nav-wrapper {
+  background-color: darkgrey !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover !important;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav-wrapper li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .nav-wrapper  h2 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+  .nav-wrapper img {
+    margin-top: 5px;
+    font-weight: bold;
+    transform: translateX(-100rem);
+    animation: slideIn 0.5s forwards;
+    margin-left: 30px;
+  }
+
+
+  .nav-wrapper ul {
+    display: flex;
+  }
+
+  .nav-wrapper ul li {
+    list-style: none;
+}
+
+  .nav-wrapper ul li a {
+    letter-spacing: 2px;
+  }
+
+
+  
+  .nav-wrapper  ul li a:before,
+  .nav-wrapper  ul li a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: crimson;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.5s;
+  }
+  
+  .nav-wrapper ul li a:before {
+    top: 0;
+    transform-origin: left;
+  }
+  
+  .nav-wrapper ul li a:after {
+    bottom: 0;
+    transform-origin: right;
+  }
+  
+  .nav-wrapper  ul li a:hover::before,
+  .nav-wrapper  ul li a:hover::after {
+    transform: scaleX(1);
+  }
+
+
+@keyframes slideIn {
+    from {
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  body {
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    background: url(./assets/technical2.jpg) no-repeat center center / auto;
+     background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .nav-wrapper ul li {
+    list-style: none;
+    transform: translateX(100rem);
+    animation: slideIn 0.5s forwards;
+    justify-content: space-between;
+  }
+
+
+  .sidenav {
+    background-color: whitesmoke !important;
+    background-size: cover !important;
+    text-transform: uppercase;
+
+  }
+
+  .sidenav li a:hover {
+    background-color: dimgray;
+  }
+
+  .background {
+    height: 40rem;
+    width: 60rem;
+  }
+
+  .sidenav li a {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+.sidenav .list {
+  margin-top: 10px;
+
+}
+
+  .sidenav span {
+    font-weight: bold;
+  }
+
+  .sidenav a{
+
+    text-decoration: none;
+    
+  }
+
+
+.circle {
+  margin-top: 10px;
+}
+
+
+
+  
+  .sidenav span:hover{
+  text-decoration: dimgray;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+ 
+  }
+
+
+  .user-view span {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  
+
+
+  

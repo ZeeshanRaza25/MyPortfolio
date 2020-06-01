@@ -1,0 +1,137 @@
+/* my own */
+.card {
+    width: 25rem;
+    height: 35rem;
+    border-radius: 10px;
+
+
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+}
+
+.card-body {
+    padding: 0rem 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+}
+
+.container-fluid .row {
+    padding-top: 2rem;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+img {
+    
+    max-width: 25rem;
+    max-height: 15rem;
+
+}
+
+.container1 {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.8);
+}
+
+
+.card-body p {
+     
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+      
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 0px;
+
+}
+
+.chip {
+   max-width: 40%;
+   margin-top: 10px;
+}
+
+.container-chip {
+    padding-right: 10px;
+}
+
+
+
+@media(min-width: 1200px),
+(min-device-width: 1025px) and (max-device-width: 1300px) {
+    .card {
+        width: 25rem;
+        height: 35rem;
+    }
+  } 
+
+
+@media(max-width: 900px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .card {
+        justify-content: space-between;
+        justify-self: center;
+        flex-wrap: wrap;
+        width: 17rem;
+        height: 35rem;
+    }
+    .container-chip {
+        padding-right: 5px;
+    }
+
+    .chip {
+        max-width: 45%;
+        margin-top: 10px;
+        font-size: 10px;
+     }
+
+     .card-text {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+     
+    } 
+
+
+    @media(max-width: 500px) {
+
+        .card {
+            justify-content: space-between;
+            justify-self: center;
+            flex-wrap: wrap;
+            width: 23rem;
+        }
+        } 
+    
+
+

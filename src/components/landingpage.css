@@ -1,0 +1,168 @@
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 2rem;
+  }
+
+
+  .text {
+    margin-top: 140px;
+    padding: 2rem;
+  }
+
+  .text h1 {
+    color: black;
+    font-size: 3rem;
+    cursor: context-menu;
+  }
+
+  .text h1, h2 {
+    font-weight: 800;
+    margin: 0.4rem;
+  }
+
+  .text h2 {
+    font-size: 1rem;
+    color: crimson;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+/* cursor */
+  .txt-type > .txt {
+    border-right: 0.2rem solid #777;
+  }
+
+  .text span {
+    display: inline-block;
+    padding: 0.3rem;
+  }
+  
+  span:hover {
+    color: #48cfad;
+    transition: all 0.1s;
+  }
+  
+  span.name {
+    color: #ed5565;
+  }
+
+  span.m-left {
+    margin-left: -10px;
+  }
+  .tech {
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 1rem;
+  }
+  
+  .hello {
+    border-style: groove;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: white;
+
+  }
+
+
+
+  .information {
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+  }
+  .media ul {
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .media ul li {
+    list-style: none;
+    margin: 0 15;
+
+  }
+
+  .media ul li .fab {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+  }
+
+  .media ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  }
+
+  .media ul li a:hover {
+    transform: translate(0, -10px);
+  }
+
+  .media ul li:nth-child(1) a:hover {
+    background-color: darkgray;
+  }
+
+  .media ul li:nth-child(2) a:hover {
+    background-color: darkgray;
+  }
+
+  .media ul li:nth-child(3) a:hover {
+    background-color: darkgray;
+  }
+  .media ul li:nth-child(4) a:hover {
+    background-color: darkgray;
+  }
+
+  @media(min-width: 1200px) {
+    .text h1 {
+      font-size: 2.5rem;
+    }
+  } 
+
+
+  @media(max-width: 800px) {
+    .container {
+      padding: 0 1rem;
+
+    }
+    .text h1 {
+      font-size: 2rem;
+    }
+  } 
+
+  @media(max-width: 500px) {
+    .container {
+      padding: 0 0.1rem;
+
+    }
+    .text h1 {
+      font-size: 2rem;
+    }
+    .text h2 {
+      font-size: 0.8rem;
+      letter-spacing: 0.1rem;
+    }
+    .information {
+      letter-spacing: 1px;
+      font-size: 1rem;
+    }
+  } 

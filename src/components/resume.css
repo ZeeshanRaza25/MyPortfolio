@@ -1,0 +1,59 @@
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
+  
+  .resume-right-col h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  .card-content .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .content-profile {
+    justify-content: start;
+    padding-left: 15px;
+  }
+
+  .card-main {
+    width: 100% !important;
+    height: 100% !important;
+    
+  }
+
+
+
+
+
+  .card-profile {
+    width: 100%;
+    padding: 0rem 0rem !important;
+    height: 100% !important;
+   
+  }
+
+  .container3 {
+    padding: 10px;
+  }
+
+  .resume-info h6{
+    text-transform: uppercase ;
+  }
+
+  .resume-info h6{
+      font-weight: bold;
+  }
+
+  .resume-info strong {
+    font-weight: bold;
+    color:#003035;
+  }
+
+  .striped td{
+    font-weight: bold;
+  }
