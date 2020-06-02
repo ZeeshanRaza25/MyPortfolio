@@ -14,10 +14,10 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: 12
-      - run: npm install
+      - run: npm ci
     
       - name: Build React App
-        run: npm run build --if-present
+        run: npm run build
     
       - name: Install Surge
         run: npm install -g surge
