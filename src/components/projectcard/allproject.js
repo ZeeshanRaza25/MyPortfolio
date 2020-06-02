@@ -6,7 +6,6 @@ import React, { Component } from "react";
 import SingleProject from './singleproject';
 import "../cards/card-style.css";
 import './singleprojectstyle.css'
-import img1 from '../../assets/website1.PNG';
 import img3 from '../../assets/foodini.png';
 import img4 from '../../assets/covid.png';
 
