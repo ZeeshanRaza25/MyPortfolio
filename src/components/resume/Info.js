@@ -9,7 +9,7 @@ export class Info extends Component {
                         <div style={{ justifyContent: 'start', display: 'block'}}>
 
                             <h6>Website:</h6>
-                            <strong>localhost:3000</strong>
+                            <strong>zeeshan25.surge.sh</strong>
                             <hr style={{ borderTop: '1px solid 	#A9A9A9', width: '80%' }} />
                             <h6>Traits:</h6>
                             <strong>Leadership<br/></strong>
