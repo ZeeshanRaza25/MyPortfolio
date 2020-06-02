@@ -8,9 +8,9 @@ export class Info extends Component {
                     <div className="card-content resume-info" >
                         <div style={{ justifyContent: 'start', display: 'block'}}>
 
-                            {/* <h6>Website:</h6>
+                            <h6>Website:</h6>
                             <strong>zeeshan25.surge.sh</strong>
-                            <hr style={{ borderTop: '1px solid 	#A9A9A9', width: '80%' }} /> */}
+                            <hr style={{ borderTop: '1px solid 	#A9A9A9', width: '80%' }} />
                             <h6>Traits:</h6>
                             <strong>Leadership<br/></strong>
                             <strong>Teamwork<br/></strong>
