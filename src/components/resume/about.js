@@ -57,7 +57,7 @@ export class About extends Component {
                     borderRadius: 10,
                   }}
                 >
-                  Sep <strong>2016</strong> - <strong> Till Now </strong>
+                  Sep <strong>2016</strong> - Sep <strong>2020</strong>
                 </p>
 
                 <h6
@@ -75,7 +75,7 @@ export class About extends Component {
                   <h6 className="no-pad mt-bottom">
                     <h4>University of Agriculture Faisalabad, Pakistan</h4>
                     <strong style={{ fontSize: 18, fontWeight: "bold" }}>
-                      Continue Bachelor's Degree, Computer Science with CGPA - 3.10/4
+                      Continue Bachelor's Degree, Computer Science with CGPA - 3.0/4.0
                     </strong>
                   </h6>
                 </blockquote>
